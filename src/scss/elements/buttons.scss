@@ -1,0 +1,14 @@
+@import 'global/variables';
+
+button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: $base-font-size;
+  padding: 0;
+
+  &:focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+}

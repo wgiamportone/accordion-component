@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1.5em;
+  padding: 1.5em;
+}
+
+.grid-half {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+@media screen and (min-width:37.5rem){
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-half {
+    grid-column-start: 4;
+    grid-column-end: 10;
+  }
+}
