@@ -37,7 +37,7 @@ Run this whenever frontend npm dependencies are updated in the `package.json` fi
 npm install
 ```
 
-### Scss installed with Webpack
+#### Scss installed with Webpack
 
 You can find a reference for installation [here](https://medium.com/@Connorelsea/using-sass-with-create-react-app-7125d6913760).
 
