@@ -14,7 +14,7 @@ Button copy with plus/minus icon
 When project collaborators first pull down the parent repository to their local systems:
 
 ```
-cd accordion-component</br>
+cd accordion-component
 npm start
 ```
 
