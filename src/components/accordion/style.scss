@@ -1,1 +1,31 @@
 // Accordion
+
+.accordion__link {
+  padding: 1.5em 0;
+  text-align: left;
+  width: 100%;
+}
+
+.accordion__title {
+  font-weight: bold;
+  font-size: 1.5em;
+
+  &::after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+}
+
+.accordion__panel {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+}
+
+.accordion--open {
+  .accordion__title::after {
+    content: "\2212";
+  }
+}
